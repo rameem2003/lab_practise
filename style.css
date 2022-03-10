@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#menu{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#menu .left{
+    width: 50%;
+}
+
+#menu .left a{
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+#menu .right{
+    width: 50%;
+}
+
+#menu .right ul{
+    list-style: none;
+}
+#menu .right ul li{
+    display: inline-block;
+
+}
+#menu .right ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    font-size: 25px;
+}
+
+#banner{
+    background-image: url(./istt_banner_dark.png);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#banner h1{
+    font-size: 55px;
+}
+
+#banner p{
+    font-size: 100px;
+}
